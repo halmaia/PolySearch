@@ -1,0 +1,8 @@
+images = 885 *4*1024*1024
+
+Class feature statistics:
+features = 1128
+features per image = [min = 1, mean = 1.27, max = 7]
+classes = 1
+cls name                                  cls value     images   features    min size   mean size    max size
+Siktundra                                         1        885       1128        0.11    24566.46   160795.00

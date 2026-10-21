@@ -1,0 +1,118 @@
+{
+  "Version" : 1,
+  "NumBands" : 4,
+  "TileSizeX" : 1024,
+  "TileSizeY" : 1024,
+  "NumClasses" : 1,
+  "NumTiles" : 885,
+  "NumTilesAsDouble" : 885,
+  "NextTileIndex" : 43152,
+  "OutputFeatures" : true,
+  "MetaDataMode" : "Classified_Tiles",
+  "MinCellSize" : {
+    "x" : 0.40000000000000002,
+    "y" : 0.40000000000000002,
+    "spatialReference" : {
+      "wkid" : 23700,
+      "latestWkid" : 23700,
+      "vcsWkid" : 5787,
+      "latestVcsWkid" : 5787
+    }
+  },
+  "MaxCellSize" : {
+    "x" : 0.40000000000000002,
+    "y" : 0.40000000000000002,
+    "spatialReference" : {
+      "wkid" : 23700,
+      "latestWkid" : 23700,
+      "vcsWkid" : 5787,
+      "latestVcsWkid" : 5787
+    }
+  },
+  "Classes" : [
+    {
+      "ClassValue" : 1,
+      "ClassName" : "Siktundra",
+      "Color" : [
+        170,
+        107,
+        134
+      ]
+    }
+  ],
+  "FeatureStats" : {
+    "NumClasses" : 1,
+    "NumImagesTotal" : 885,
+    "NumFeaturesTotal" : 1128,
+    "NumImagesPerClass" : [
+      885
+    ],
+    "NumFeaturesPerClass" : [
+      1128
+    ],
+    "NumFeaturesPerImage" : {
+      "Min" : 1,
+      "Max" : 7,
+      "Mean" : 1.2745762711864406,
+      "Sum" : 1128,
+      "Count" : 885
+    },
+    "FeatureAreaPerClass" : [
+      {
+        "Min" : 0.11154176078795433,
+        "Max" : 160794.99994507065,
+        "Mean" : 24566.463989505923,
+        "Sum" : 27710971.380162682,
+        "Count" : 1128
+      }
+    ]
+  },
+  "InputRastersProps" : {
+    "RasterCount" : 1,
+    "SensorName" : "MultiSpectral",
+    "BandNames" : [
+      "Red",
+      "Green",
+      "Blue",
+      "Infrared"
+    ]
+  },
+  "BandStatsState" : [
+    {
+      "Min" : 3,
+      "Max" : 254,
+      "Mean" : 0,
+      "StdDev" : 0,
+      "M1" : 125.42394085145941,
+      "M2" : 1918855624422.7417,
+      "Num" : 927989760
+    },
+    {
+      "Min" : 0,
+      "Max" : 254,
+      "Mean" : 0,
+      "StdDev" : 0,
+      "M1" : 128.01847252818806,
+      "M2" : 1273317073715.0549,
+      "Num" : 927989760
+    },
+    {
+      "Min" : 0,
+      "Max" : 254,
+      "Mean" : 0,
+      "StdDev" : 0,
+      "M1" : 110.34256209357312,
+      "M2" : 1137275105183.4387,
+      "Num" : 927989760
+    },
+    {
+      "Min" : 2,
+      "Max" : 254,
+      "Mean" : 0,
+      "StdDev" : 0,
+      "M1" : 147.30737828507907,
+      "M2" : 685675575377.87268,
+      "Num" : 927989760
+    }
+  ]
+}
